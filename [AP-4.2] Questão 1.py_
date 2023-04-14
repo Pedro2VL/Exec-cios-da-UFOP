@@ -1,0 +1,12 @@
+c = float(input('Capital emprestado: '))
+m = int(input('Quantidade de meses para quitação: '))
+if c<=10000:
+    vl = c*m*0.1
+    print('Taxa de juros aplicada: 10%')
+    print(f'Juros devido: {vl:.2f}')
+    print(f'Valor total: {vl+c:.2f}')
+else:
+    vl = c*m*0.07
+    print(f'Taxa de juros aplicada: 7%')
+    print(f'Juros devido: {vl:.2f}')
+    print(f'Valor total: {vl+c:.2f}')

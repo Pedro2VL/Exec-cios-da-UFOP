@@ -1,0 +1,22 @@
+a = int(input('Anos de experiência: '))
+l = int(input('Linguagens de programação: '))
+p = int(input('Projetos: '))
+if a >= 10 and l >= 5 and p >= 10:
+    print(f'Concorrendo à Vaga Sênior')
+
+elif a <3 or  l <3 or p <5 :
+    print(f'Concorrendo à Vaga Junior. Para concorrer a Vaga Pleno, faltam: ')
+    if a<3:
+        print(f'- {3-a} anos de experiência')
+    elif l<5:
+        print(f'- {3- l} linguagens de programação')
+    elif p<5:
+        print(f'- {5-p}projetos')
+else:
+    print(f'Concorrendo à Vaga Pleno. Para concorrer a Vaga Sênior, faltam: ')
+    if a<10:
+        print(f'- {10-a} anos de experiência')
+    elif l<5:
+        print(f'- {5-l} linguagens de programação')
+    elif p<10:
+        print(f'- {10-p} projetos')

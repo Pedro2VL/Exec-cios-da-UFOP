@@ -1,0 +1,14 @@
+m = float(input('Média no semestre: '))
+f = int(input('Frequência no semestre: '))
+if m>=6 and f>=75:
+    print('Conceito: aprovado')
+elif m>=6 and f<75:
+    print('Conceito: reprovado por falta')
+    print(f'Justificativa: frequência {75-f}% abaixo da mínima')
+elif m<6 and f>=75:
+    print('Conceito: exame especial')
+    print(f'Justificativa: média {6-m} abaixo da mínima')
+else:
+    print('Conceito: reprovado por falta')
+    print(f'Justificativa: frequência {75-f}% abaixo da mínima')
+    

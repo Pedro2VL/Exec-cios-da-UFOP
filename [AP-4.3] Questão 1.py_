@@ -1,0 +1,13 @@
+m14 = float(input('Média móvel dos últimos 14 dias: '))
+s = int(input('Somatório dos casos dos últimos 6 dias: '))
+h = int(input('Quantidade de casos de hoje: '))
+m7 = (s+h)/7
+d = m7 - m14
+tx = d/m14*100
+if tx<0:
+    print(f'Casos diminuindo em {tx*(-1):.2f}%')
+else:
+    if tx<=15:
+        print(f'Casos estáveis em {tx:.2f}%')
+    else:
+        print(f'Casos aumentando em {tx:.2f}%')

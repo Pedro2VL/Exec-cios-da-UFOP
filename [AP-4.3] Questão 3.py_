@@ -1,0 +1,12 @@
+mo = float(input('Quantidade de Morangos (em kg): '))
+ma = float(input('Quantidade de Maçãs (em kg): '))
+if mo<0 or ma<0:
+    print('Entrada inválida')
+elif mo<=5 and ma <=5:
+    print(f'O valor total da sua compra é R$ {(mo*2.5 + ma*1.8):.2f}')
+elif mo<=5 and ma>5:
+    print(f'O valor total da sua compra é R$ {(mo*2.5 + ma*1.5):.2f}')
+elif mo>5 and ma<=5:
+    print(f'O valor total da sua compra é R$ {(mo*2.2 + ma*1.8):.2f}')
+elif mo>5 and ma>5:
+    print(f'O valor total da sua compra é R$ {(mo*2.2 + ma*1.5):.2f}')

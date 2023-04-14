@@ -1,0 +1,8 @@
+a = int(input('Cateto 1 (a): '))
+b = int(input('Cateto 2 (b): '))
+h = int(input('Hipotenusa (c): '))
+if (a**2)+(b**2)==(h**2):
+    print(f'{a}, {b}, {h} representam um terno pitagórico')
+else:
+    print(f'{a}, {b}, {h} NÃO representam um terno pitagórico')
+print(f'')

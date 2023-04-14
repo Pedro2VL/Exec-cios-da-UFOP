@@ -1,0 +1,6 @@
+h = float(input('Digite a altura: '))
+sx = str(input('Qual é o sexo (m ou f): '))
+if sx=='m':
+    print(f'O peso ideal é {(72.7*h)-58:.2f}')
+else:
+    print(f'O peso ideal é {(62.1*h)-44.7:.2f}')

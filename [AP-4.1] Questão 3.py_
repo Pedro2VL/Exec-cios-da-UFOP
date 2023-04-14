@@ -1,0 +1,9 @@
+from math import ceil
+tl = int(input('Tipo de ladrilho (1 ou 2): '))
+a = int(input('Área da sala: '))
+if tl==1:
+    vi = ceil(a/80)
+    print(f'Quantidade de ladrilhos: {vi}')
+else:
+    vi = ceil(a/60)
+    print(f'Quantidade de ladrilhos: {vi}')

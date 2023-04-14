@@ -1,0 +1,20 @@
+def impostoRenda(b):
+    B = round(b, 2)
+    if B <= 1500:
+        return round(0)
+    elif B > 1500 and B <= 2500:
+        return round(B*0.05, 2)
+    elif B > 2500 and B <= 4500:
+        return round(B*0.1, 2)
+    else:
+        return round(B*0.2, 2)
+
+b = float(input('Digite o salário bruto: '))
+ir = impostoRenda(b)
+print(f'(-)IR: R$ {ir:.2f}')
+print(f'(-)INSS: R$ {round(b*0.1, 2):.2f}')
+print(f'FGTS: R$ {b*0.11:.2f}')
+td = ir + round(b*0.1, 2)
+sl = b - round(b*0.1, 2) -ir
+print(f'Total de descontos: R$ {td:.2f}')
+print(f'Salário Líquido: R$ {sl:.2f}')

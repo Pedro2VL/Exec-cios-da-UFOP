@@ -1,0 +1,108 @@
+div.cima1 {
+	background-color: #F1F1F1;
+	margin-top: -16px;
+	margin-left: -8px;
+	margin-right: -8px;
+	height: 41px;
+}
+div.cima1 li{
+	list-style: none;
+	display: inline;
+	margin-left: 100px;
+}
+div.cima1 li a{
+	color: #606069;
+	text-decoration: none;
+	text-align: center;
+}
+div.cima1 li a.covid{
+	color: red;
+}
+
+div.cima2 {
+	background-color: #962038;
+	height: 37px;
+}
+div.cima2 li{
+	list-style: none;
+	display: inline;
+}
+div.cima2 li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+header.cabeçalho{
+	background-color: #404040;
+	height: 585px;
+}
+header.cabeçalho img.logo {
+	margin-top: 8px;
+	margin-left: 376px;
+}
+header.cabeçalho img.aces{
+	margin-left: 635px;
+	margin-bottom: 120px;
+}
+header.cabeçalho img.contraste{
+	margin-left: 10px;
+	margin-bottom: 122px;
+}
+header.cabeçalho img.minha{
+	margin-left: -370px;
+	margin-bottom: 70px;
+	border: none;
+	padding-bottom: 0%;
+}
+header.cabeçalho img.mail{
+	margin-bottom: 73px;
+	border: none;
+	padding-bottom: 0%;
+}
+header.cabeçalho img.sei{
+	margin-bottom: 74px;
+	border: none;
+	padding-bottom: 0px;
+}
+
+
+#txtBusca{
+	margin-left: 1190px;
+	margin-bottom: 10px;
+	background-color: #343434;
+	border: none;
+	height: 28px;
+}
+#bntBusca{
+	margin-left: 1375px;
+	border: none;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-right: 5px;
+	margin-top: -30px;
+}
+
+header.cabeçalho div.home{
+	margin-left: 150px;
+}
+header.cabeçalho li {
+    margin: 0;
+    padding: 0;
+	list-style: none;
+    display: inline;
+	font: Arial;list-style: none;
+    display: inline;
+	font: Arial;
+}
+header.cabeçalho li a{
+    float: left;
+    border:1px solid #5F5F5F;
+	width:6.0em;
+	font:0.68em  Verdana, Arial, Helvetica, sans-serif;
+	background:#5F5F5F;
+	color:white	;
+	text-align:center;
+	padding:0  0.2em 0.2em  0;
+	text-decoration:none;
+}
